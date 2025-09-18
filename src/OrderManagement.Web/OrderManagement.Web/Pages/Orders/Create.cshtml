@@ -1,0 +1,23 @@
+﻿@page
+@model OrderManagement.Web.Pages.Orders.CreateModel
+@{
+    ViewData["Title"] = "Create Order";
+}
+<h2>Create Order</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Order.CustomerName" class="form-label"></label>
+        <input asp-for="Order.CustomerName" class="form-control" />
+        <span asp-validation-for="Order.CustomerName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Order.OrderDate" class="form-label"></label>
+        <input asp-for="Order.OrderDate" type="date" class="form-control" />
+        <span asp-validation-for="Order.OrderDate" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+</form>
