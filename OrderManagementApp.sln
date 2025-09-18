@@ -27,6 +27,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.UnitTests.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.IntegrationTests.Tests", "tests\OrderManagement.IntegrationTests\OrderManagement.IntegrationTests.Tests\OrderManagement.IntegrationTests.Tests.csproj", "{731BA40A-B98E-4CE0-AE55-D3A45E55A789}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notes", "notes", "{5AA559D0-E502-490B-BADF-4E5919C5CA3D}"
+	ProjectSection(SolutionItems) = preProject
+		notes\deployment.txt = notes\deployment.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cicd", "cicd", "{58F65855-CBF0-4025-B023-4E5FEA6AB2EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
